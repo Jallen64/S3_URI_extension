@@ -1,7 +1,7 @@
 {
   "name": "URI Shortcut",
   "version": "1.0",
-  "description": "Tools for quickly turning s3 URI's into browser paths",
+  "description": "Tool for quickly turning s3 URI's into browser paths",
   
   "manifest_version": 2,
 
