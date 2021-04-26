@@ -1,5 +1,5 @@
 {
-  "name": "URI Shortcut",
+  "name": "S3 URI Linker",
   "version": "1.0",
   "description": "Tool for quickly turning s3 URI's into browser paths",
   
@@ -8,20 +8,15 @@
   "browser_action": {
     "default_icon": "icons/icon_16.png",
     "default_popup": "menu.html",
-    "default_title": "URI Shortcut"
+    "default_title": "S3 URI Linker"
   },
   "icons": {
     "16": "icons/icon_16.png",
     "128": "icons/icon_128.png"
   },
-  "permissions": [
-    "tabs",
-    "contextMenus",
-    "*://*/*"
-  ],
   "content_scripts": [
     {
-      "matches": ["*://*/*"],
+
       "js": [
         "js/jquery-2.0.3.min.js",
         "js/tools.js",
