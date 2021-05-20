@@ -1,6 +1,6 @@
 {
   "name": "S3 URI Linker",
-  "version": "1.0",
+  "version": "2.0",
   "description": "Tool for quickly turning s3 URI's into browser paths",
   
   "manifest_version": 2,
